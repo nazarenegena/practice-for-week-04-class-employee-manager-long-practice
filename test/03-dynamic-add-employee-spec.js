@@ -3,7 +3,7 @@ const expect = chai.expect;
 const spies = require('chai-spies');
 chai.use(spies);
 
-const Employee = require('../employee');
+const Employee = require('../Employee');
 const Manager = require('../manager');
 
 describe('Adding employees dynamically', () => {
